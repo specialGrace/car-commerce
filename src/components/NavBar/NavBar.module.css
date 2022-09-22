@@ -1,0 +1,165 @@
+.navbar {
+  position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    z-index: 200;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255, 118, 117);
+    padding: 0 2rem;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.7);
+    background: linear-gradient(90deg, rgba(255, 118, 117, 1) 29%, rgba(214, 48, 49, 1) 78%, rgba(214, 48, 49, 1) 78%);
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #212529;
+}
+
+.navlink:hover {
+  text-decoration: underline;
+}
+
+.menuIcon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  border: none;
+  font-size: 1.5rem;
+}
+
+.menuBtn {
+  border: none;
+}
+
+.menuIcon:hover {
+  color: rgba(0, 0, 0, .5);
+  border-color: rgba(0, 0, 0, .1);
+}
+
+.navToggler {
+  /* width: 150px; */
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.tgq {
+  padding-left: 50px;
+  font-family: 'Inspiration', cursive;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+button:not(:disabled),
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled) {
+  cursor: pointer;
+}
+/* .navbar{
+  
+}
+
+.navbar .logo{
+  margin-right: 15px;
+  font-size: 2rem;
+}
+
+.spacer{
+  flex: 1;
+} */
+.navbar > ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0 2rem;
+}
+
+.navbar > ul > li{
+  margin-right: 15px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.navbar a:hover{
+  text-decoration: underline;
+}
+
+.navbar .menu{
+  display: none;
+  color:#fff;
+}
+
+.cart{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartIcon{
+  font-size: 2rem;
+}
+
+.cartCount{
+  position: absolute;
+  top:-5px;
+  right:0;
+  font-size: .5rem;
+  background-color: #000;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* mobile */
+@media (max-width:678px){
+  .navbar > ul{
+    display: none;
+  }
+
+  .navbar .menu{
+    display: block;
+  }
+
+    .navbar {
+      height: 70px;
+      padding: 0 1rem;
+      
+    }
+
+        .tgq {
+          padding-left: 30px;
+          font-family: 'Inspiration', cursive;
+          font-weight: bold;
+          font-size: 1.5rem;
+        }
+}

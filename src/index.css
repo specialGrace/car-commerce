@@ -1,0 +1,47 @@
+
+:root{
+  --primary:#ff7675;
+	--mainBlue: #2a2a72;
+	--lightBlue: #009ffd;
+	--mainWhite: #fff;
+	--mainDark: #232528;
+	--mainYellow: #ffa400;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Oswald', sans-serif !important;
+  background-color: var(--mainWhite) !important;
+  color:var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 0.3;
+  text-transform: uppercase;
+}
+
+/* slides */
+.slide{
+  opacity:0;
+  transition: 1s ease;
+}  
+.slide.active{
+  opacity: 1;
+  transition: 1s;
+  transform: scale(1.08);
+} 
+
+@media (max-width:678px){
+  .app{
+   width: 100%;
+   overflow: hidden;
+  }
+  
+}

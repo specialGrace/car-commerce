@@ -1,0 +1,135 @@
+.Sidebar {
+    /* border-top: 3px solid grey; */
+    /* background-color: beige; */
+    padding: 0.1rem 0.1rem;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 20%);
+    overflow-y: auto;
+    min-height: 100vh;
+}
+
+.navlink {
+    color: #000;
+}
+
+.navbarlist {
+    list-style-type: none;
+    position: relative;
+    margin-top: 10px;
+}
+
+.navbarlist li {
+    padding: 8px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarlist li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+}
+
+.navbarlist li .icon {
+    color: black;
+    font-size: 1.3em;
+}
+
+.navbarlist li p {
+    padding-left: 35px;
+}
+
+.navbarlist li .right {
+    margin-right: 10px;
+}
+
+.logolink {
+    text-decoration: none;
+    color: #000;
+}
+
+.logoname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.tgq {
+    padding-left: 20px;
+    font-family: 'Inspiration', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.logoicon {
+    font-size: 2rem;
+}
+
+.mediaContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.media:hover {
+    transition: all .8s;
+    background-color: #c9c4c2 !important;
+}
+
+.mediaLink {
+    color: #000000;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+.mediaAnchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutlink {
+    text-decoration: none;
+    color: #000;
+}
+
+.about {
+    padding-top: 10px;
+}
+
+.timesBtn {
+    border: none;
+}
+
+.times {
+    font-size: 2rem;
+
+}

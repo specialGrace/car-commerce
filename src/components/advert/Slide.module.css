@@ -1,0 +1,111 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,118,117);
+    background: linear-gradient(55deg, #ff7675 29%, #d63031 29.1%, #d63031 68%, #ff7675 68.1%);
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #000500;
+}
+
+.prod_1{
+    flex: 1 1 250px;
+    align-items: center;
+    padding: 15px;
+}
+
+.prod_1 img{
+    width: 80%;
+}
+
+.prod_2 {
+    position: relative;
+    bottom: -20px;
+    z-index: 2;
+    flex: 1 1 250px;
+    align-items: center;
+    padding: 15px;
+}
+.prod_2 img{
+    width: 100%;
+}
+
+.slide .content{
+    flex: 1 1 250px;
+    text-transform: uppercase;
+    color:#fff;
+    text-align: center;
+}
+
+.slide .content span{
+   font-size: 25px;
+}
+
+.slide .content h3{
+    font-size: 35px;
+ }
+
+ .slide .content p{
+    font-size: 15px;
+ }
+
+ .btn{
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+    background-color: beige;
+    border-radius: 5px;
+    text-decoration: none;
+ }
+ .btn:hover{
+    background-color: rgba(255, 255, 255, 0.61);
+ }
+
+@media (max-width:678px){
+    .prod_2 {
+        display: none;
+    }
+
+        .slide .content {
+           padding-left: 15px;
+        }
+
+        .slide .content span {
+            font-size: 20px;
+        }
+    
+        .slide .content h3 {
+            font-size: 25px;
+        }
+    
+        .slide .content p {
+            font-size: 12px;
+        }
+
+        .prod_1 {
+                    flex: 1 1 150px;
+                    align-items: center;
+                    padding: 25px;
+                }
+
+                                        .btn {
+                                            width: 100px;
+                                            height: 20px;
+                                            margin: 0 auto;
+                                            display: block;
+                                            border-radius: 5px;
+                                            text-decoration: none;
+                                            font-size:0.8rem;
+                                            padding-top: 3px;
+                                        }
+}
